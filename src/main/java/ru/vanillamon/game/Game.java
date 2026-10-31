@@ -80,7 +80,7 @@ public final class Game implements Listener {
         s.busy=true;
         repository.save(copy).whenComplete((saved,e)->main(()->{
             s.busy=false;if(e!=null){failure(e);tell(p,"error");return;}s.dirty=mergeSeen(s.profile,saved);s.profile=saved;
-            if(current(p,s)){tell(p,"team.changed");if(done!=null)done.run();}
+            if(current(p,s)&&done!=null)done.run();
         }));
     }
     public void grant(Player p,String species,int level,boolean starter,Consumer<Boolean> done) {
