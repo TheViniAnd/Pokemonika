@@ -1,0 +1,119 @@
+[CENTER][IMG]https://raw.githubusercontent.com/TheViniAnd/Pokemonika/main/assets/branding/banner.png[/IMG]
+[SIZE=7][B]Pixelmonika Free[/B][/SIZE]
+[SIZE=4]Explore. Catch. Battle. Build your team.[/SIZE]
+[B]10 Pokémon · 40 moves · Animated block models[/B]
+No client mods. No resource pack.
+[B]Paper 26.3 · Java 25 · English / Russian[/B][/CENTER]
+
+[SIZE=5][COLOR=#169d9a][B]A Pokémon adventure on your Minecraft server[/B][/COLOR][/SIZE]
+Pixelmonika brings animated, block-built Pokémon into your world using Minecraft's existing textures. Choose a starter, discover wild encounters, weaken opponents in turn-based battles and catch them with a red-and-white Poké Ball. Players join with an ordinary Minecraft Java client.
+
+[CENTER][IMG]https://raw.githubusercontent.com/TheViniAnd/Pokemonika/main/assets/screenshots/slowpoke.png[/IMG]
+[I]Slowpoke — included in Free. Optional client shaders provide the screenshot lighting.[/I][/CENTER]
+
+[SIZE=5][COLOR=#169d9a][B]What you get in Free[/B][/COLOR][/SIZE]
+[LIST]
+[*][B]10 species:[/B] Pikachu, Charmander, Bulbasaur, Squirtle, Eevee, Magikarp, Slowpoke, Pidgey, Psyduck and Vulpix.
+[*][B]40 custom moves:[/B] four per species, with configured power, PP, speed bonuses, colors, particle scenes and sounds.
+[*][B]Animated models:[/B] species-specific shapes and sizes, idle and walking movement, attacks, hit reactions, capture and fainting.
+[*][B]Wild exploration:[/B] configurable worlds, biomes, time windows and levels. Magikarp requires water; land and shore species follow their own placement rules.
+[*][B]Turn-based PvE:[/B] type effectiveness, immunities, same-type attack bonuses, speed-based turn order, experience and levels up to 100.
+[*][B]Catching:[/B] one craftable standard Poké Ball. Catch chance depends on species, remaining HP, level and ball multiplier.
+[*][B]Your collection:[/B] six party slots, 45 additional PC slots and a Pokédex recording seen and caught species.
+[*][B]Starter selection:[/B] choose Charmander, Bulbasaur or Squirtle once. Defaults: level 5 and 16 starter balls.
+[*][B]Healing:[/B] restore party HP and PP outside battle, with a configurable cooldown.
+[*][B]Persistent progress:[/B] SQLite storage; no mandatory companion plugins.
+[*][B]Open source:[/B] MIT-licensed Free project with editable models, animations, moves, spawns and messages.
+[/LIST]
+
+[SIZE=5][COLOR=#169d9a][B]How battles and catching work[/B][/COLOR][/SIZE]
+Right-click a wild Pokémon with an empty hand to open the battle menu. Select a move, switch a teammate, attempt a catch or flee. Each move spends PP. Its power and type interact with the Pokémon's stats; speed plus the move's speed bonus decides turn order. Victories award experience.
+
+Use a plugin Poké Ball in the world or choose one in battle. Weakened, lower-level targets are easier to catch. The formula uses configurable server rules. Fainted targets cannot be caught.
+
+[CENTER][IMG]https://raw.githubusercontent.com/TheViniAnd/Pokemonika/main/assets/screenshots/poke-ball.png[/IMG]
+[I]The thrown/capture model is red and white. In the inventory and hand, the base item looks like a vanilla snowball.[/I][/CENTER]
+
+The default recipe produces four balls:
+[CODE]
+Redstone   White Wool   Redstone
+White Wool Snowball     White Wool
+Redstone   White Wool   Redstone
+[/CODE]
+View it in game with [B]/pixelmonika balls[/B].
+
+Pokémon models are protected from ordinary Minecraft damage. During a Pokémon battle, incoming and outgoing Minecraft combat involving its player is blocked, including other players' interference. Outside these battles, normal server PvP rules apply.
+
+[SIZE=5][COLOR=#169d9a][B]Install and start playing[/B][/COLOR][/SIZE]
+[LIST=1]
+[*]Use [B]Paper 26.3 with Java 25[/B] and stop your server.
+[*]Put [B]Pixelmonika-Free-2.2.0-spigot.jar[/B] into the plugins folder. Install one JAR and one edition only.
+[*]Start Paper. The compact build downloads pinned SQLite JDBC 3.50.3.0 through Paper's library loader; the server needs access to Maven Central.
+[*]Check the allowed world names in [B]plugins/Pixelmonika/spawns.yml[/B]. The default world is named [B]world[/B].
+[*]Run [B]/pixelmonika starter[/B], choose your Pokémon and explore.
+[/LIST]
+The alternative [B]Pixelmonika-Free-2.2.0.jar[/B] already bundles SQLite. Both builds have the same gameplay; use either one.
+
+English is enabled by default. To use Russian, set [B]language: ru[/B] in [B]plugins/Pixelmonika/config.yml[/B], run [B]/pixelmonika admin reload[/B] outside battles, throws and pending saves, then reopen menus.
+
+[SIZE=5][COLOR=#169d9a][B]Player commands[/B][/COLOR][/SIZE]
+[LIST]
+[*][B]/pixelmonika[/B] — party or current battle.
+[*][B]/pixelmonika starter[/B] — one-time starter choice.
+[*][B]/pixelmonika heal[/B] — restore party HP and PP outside battle; default cooldown 60 seconds.
+[*][B]/pixelmonika balls[/B] — ball information and recipe.
+[*][B]/dex[/B] — Pokédex.
+[*][B]/pc[/B] — 45-slot storage.
+[/LIST]
+Aliases for the main command: [B]/pokemonika, /creatures, /vm, /pk[/B].
+
+[SPOILER=Administrator commands and permissions]
+[CODE]
+/pixelmonika admin give <player> <species> <level>
+/pixelmonika admin spawn <species> <level>
+/pixelmonika admin balls <player> [poke] <amount>
+/pixelmonika admin clear
+/pixelmonika admin reload
+/pixelmonika admin stats
+[/CODE]
+Species IDs: pikachu, charmander, bulbasaur, squirtle, eevee, magikarp, slowpoke, pidgey, psyduck, vulpix.
+Levels: 1–100. Administrative ball amounts: 1–1024.
+
+[B]pixelmonika.play[/B] — gameplay; everyone by default.
+[B]pixelmonika.admin[/B] — administration; operators by default.
+Legacy pokemonika.play/admin and vanillamon.play/admin permissions remain supported. An explicit denial on a corresponding permission takes priority.
+[/SPOILER]
+
+[SIZE=5][COLOR=#169d9a][B]Technical information[/B][/COLOR][/SIZE]
+[LIST]
+[*][B]Target:[/B] Paper 26.3, API build 230, Java 25. This is a Paper plugin distributed on SpigotMC; plain Spigot, Folia, Bedrock and other Minecraft versions are not supported by this release.
+[*][B]Rendering:[/B] BlockDisplay parts, Interaction hitboxes and TextDisplay labels with client interpolation. Standard Minecraft textures, sounds and particles.
+[*][B]Data:[/B] serialized SQLite work on a dedicated worker; transactional capture/reward records. Player data is stored in vanillamon.db inside the plugin folder.
+[*][B]Default limits:[/B] 20 wild Pokémon globally, three near a player and at most 12 models visible to a player within 32 blocks. Spawn checks every 1,200 ticks; admission probability 0.25. Limits are configurable, not a guarantee of player capacity or TPS.
+[*][B]Effects:[/B] up to 24 active scenes and 240 particles per tick by default.
+[*][B]Configuration:[/B] worlds, habitats, stats, moves, models, effects, recipes, healing and language are editable.
+[/LIST]
+Back up the entire plugin data folder with the server stopped before updating. Do not import Premium databases or configurations into Free. Migration from older Pokemonika-branded Free builds is documented in the README.
+
+[SIZE=5][COLOR=#169d9a][B]Source, documentation and support[/B][/COLOR][/SIZE]
+[URL=https://github.com/TheViniAnd/Pokemonika][B]GitHub / source code[/B][/URL] · [URL=https://github.com/TheViniAnd/Pokemonika/blob/main/README.md]Full documentation[/URL] · [URL=https://github.com/TheViniAnd/Pokemonika/issues]Report a bug[/URL]
+When reporting a problem, include the plugin version, Paper build, Java version, reproduction steps and relevant error text. Remove personal data from shared logs.
+
+[SIZE=5][COLOR=#169d9a][B]Want the extended adventure? Premium[/B][/COLOR][/SIZE]
+Free includes the complete ten-species PvE experience described above. The separate Premium edition expands it with:
+[LIST]
+[*][B]100 Pokémon, 400 moves and 16 ball types[/B]; six party slots and 180 PC slots.
+[*]Summoned followers, evolution and stones, status/healing/guard moves and a detailed Pokédex.
+[*]Player duels and arenas, world trainers and optional Citizens integration.
+[*]Eight gyms and a champion, trading, quests, leaderboards and Pokémon Centers.
+[/LIST]
+These additional mechanics and species are [B]not included in Free[/B].
+
+[CENTER][IMG]https://raw.githubusercontent.com/TheViniAnd/Pokemonika/main/assets/screenshots/premium-battle.png[/IMG]
+[I]Premium preview: Gengar and Venusaur belong to the extended roster, not the Free download.[/I]
+
+[SIZE=5][URL=https://boosty.to/minefind][B]Get Premium on Boosty →[/B][/URL][/SIZE]
+
+[URL=https://raw.githubusercontent.com/TheViniAnd/Pokemonika/main/assets/branding/icon.png][IMG]https://raw.githubusercontent.com/TheViniAnd/Pokemonika/main/assets/branding/icon-96.png[/IMG][/URL]
+[B]Created by TheViniAnd[/B]
+Free code: MIT · English / Russian[/CENTER]

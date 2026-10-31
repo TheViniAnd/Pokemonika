@@ -1,6 +1,6 @@
 {
-  "prefix": "[Pokemonika Free] ",
-  "ready": "Готово. /pokemonika",
+  "prefix": "[Pixelmonika Free] ",
+  "ready": "Готово. /pixelmonika",
   "loading": "Данные ещё загружаются. Повторите через несколько секунд.",
   "denied": "У вас нет права на это действие.",
   "busy": "Предыдущее действие ещё выполняется.",
@@ -14,7 +14,7 @@
     "success": "Пойман {name}! Место: {place}.",
     "failure": "Покемон вырвался!",
     "throw": "Покебол брошен.",
-    "no-ball": "Нужен покебол Pokemonika."
+    "no-ball": "Нужен покебол Pixelmonika."
   },
   "battle": {
     "start": "Бой с {name}! Выберите действие. /creatures возвращает меню.",
@@ -44,7 +44,7 @@
     "invalid": "Действие недоступно. Проверьте свободные места и откройте меню заново."
   },
   "menu": {
-    "team": "Pokemonika · команда",
+    "team": "Pixelmonika · команда",
     "starter": "Выберите стартера один раз",
     "pc": "Хранилище",
     "dex": "Покедекс · {page}/{pages}",
@@ -100,7 +100,7 @@
   },
   "admin": {
     "done": "Готово.",
-    "usage": "/pokemonika admin give <игрок> <вид> <1–100> | spawn <вид> <уровень> | balls <игрок> [тип] <1–1024> | clear | reload | stats",
+    "usage": "/pixelmonika admin give <игрок> <вид> <1–100> | spawn <вид> <уровень> | balls <игрок> [тип] <1–1024> | clear | reload | stats",
     "stats": "Существ: {actors}; сущностей модели: {parts}; боёв: {battles}; игроков с данными: {players}."
   },
   "reload": {
@@ -108,7 +108,7 @@
     "fail": "Ошибочная конфигурация отклонена. Прежняя продолжает работать; подробности в журнале."
   },
   "command": {
-    "help": "/pokemonika: starter, heal, balls, admin",
+    "help": "/pixelmonika: starter, heal, balls, admin",
     "player": "Эта команда доступна игроку."
   },
   "delivery": {

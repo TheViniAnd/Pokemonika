@@ -27,8 +27,27 @@ tasks.withType(Jar).configureEach {
 }
 
 jar {
-    archiveFileName = "Pokemonika-Free-${version}.jar"
+    archiveFileName = "Pixelmonika-Free-${version}.jar"
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
     exclude 'META-INF/*.SF', 'META-INF/*.RSA', 'META-INF/*.DSA', 'module-info.class'
+}
+
+// Small marketplace download; Paper resolves the pinned driver on first startup.
+def marketplaceDescriptor = layout.buildDirectory.dir('generated/marketplace')
+tasks.register('marketplaceDescriptor') {
+    inputs.file('src/main/resources/plugin.yml')
+    outputs.dir(marketplaceDescriptor)
+    doLast {
+        def target = marketplaceDescriptor.get().file('plugin.yml').asFile
+        target.parentFile.mkdirs()
+        target.setText(file('src/main/resources/plugin.yml').getText('UTF-8') +
+                '\nlibraries:\n  - org.xerial:sqlite-jdbc:3.50.3.0\n', 'UTF-8')
+    }
+}
+tasks.register('spigotJar', Jar) {
+    dependsOn classes, tasks.named('marketplaceDescriptor')
+    archiveFileName = "Pixelmonika-Free-${version}-spigot.jar"
+    from(sourceSets.main.output) { exclude 'plugin.yml' }
+    from(marketplaceDescriptor)
 }

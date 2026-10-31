@@ -1,6 +1,6 @@
 {
-  "prefix": "[Pokemonika Free] ",
-  "ready": "Ready. /pokemonika",
+  "prefix": "[Pixelmonika Free] ",
+  "ready": "Ready. /pixelmonika",
   "loading": "Loading your data. Try again shortly.",
   "denied": "You cannot use this action.",
   "busy": "An action is still in progress.",
@@ -14,12 +14,12 @@
     "success": "Caught {name}! Stored in: {place}.",
     "failure": "The Pokemon broke free!",
     "throw": "Poke Ball thrown.",
-    "no-ball": "You need a Pokemonika Poke Ball."
+    "no-ball": "You need a Pixelmonika Poke Ball."
   },
   "battle": {
     "start": "Battle with {name}! Choose an action.",
     "win": "Victory! +{xp} XP; levels gained: {levels}.",
-    "loss": "Your team fainted. /pokemonika heal",
+    "loss": "Your team fainted. /pixelmonika heal",
     "end": "Battle ended.",
     "move": "{name}: {move}, {damage} damage.",
     "no-pp": "This move has no PP left.",
@@ -38,13 +38,13 @@
     "name": "{name} · Lv. {level}"
   },
   "team": {
-    "empty": "No conscious party Pokemon. /pokemonika starter or heal",
+    "empty": "No conscious party Pokemon. /pixelmonika starter or heal",
     "changed": "Party saved.",
     "slot": "Slot {slot}",
     "invalid": "Action unavailable. Check free slots and reopen the menu."
   },
   "menu": {
-    "team": "Pokemonika · Party",
+    "team": "Pixelmonika · Party",
     "starter": "Choose your starter",
     "pc": "Storage",
     "dex": "Pokedex · {page}/{pages}",
@@ -100,7 +100,7 @@
   },
   "admin": {
     "done": "Done.",
-    "usage": "/pokemonika admin give <player> <species> <1-100> | spawn <species> <level> | balls <player> [type] <1-1024> | clear | reload | stats",
+    "usage": "/pixelmonika admin give <player> <species> <1-100> | spawn <species> <level> | balls <player> [type] <1-1024> | clear | reload | stats",
     "stats": "Pokemon: {actors}; model entities: {parts}; battles: {battles}; loaded players: {players}."
   },
   "reload": {
@@ -108,7 +108,7 @@
     "fail": "Invalid configuration. Previous settings remain active; see the log."
   },
   "command": {
-    "help": "/pokemonika: starter, heal, balls, admin",
+    "help": "/pixelmonika: starter, heal, balls, admin",
     "player": "This command is for players."
   },
   "delivery": {

@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parent.parent
 VERSION='2.2.0';IDS={'pikachu','charmander','bulbasaur','squirtle','eevee','magikarp','slowpoke','pidgey','psyduck','vulpix'}
 FORBIDDEN={'ProgressionConfig','ProgressSql','Evolution','DuelState','DuelLobby','DuelEngine','DuelCommands','DuelReturns','Arena','ArenaBlueprint','ArenaProtection','ArenaStore','ArenaService','Trainer','TrainerAi','TrainerOffers','TrainerStore','TrainerEngine','TrainerCommands','TrainerNpc','TradeEngine','ProgressionService','ProgressMenus','CenterEngine','CenterStore','CenterBlueprint','CenterCommands','Clinic','DexInfo','FollowPath','CompanionRules','CitizensHook','CitizensAccess'}
 def sources():
- roots=['src','gradle','scripts'];files=[]
+ roots=['src','gradle','scripts','assets','docs'];files=[]
  for folder in roots:files.extend(p for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
  files.extend(ROOT/n for n in ['build.gradle','settings.gradle','gradlew','gradlew.bat','.gitignore','README.md','README.ru.md','LICENSE','THIRD_PARTY.md'])
  return sorted(files)
@@ -23,18 +23,30 @@ def audit():
  return sources()
 def main():
  files=audit();reports=[ET.parse(p).getroot() for p in (ROOT/'build/test-results/test').glob('TEST-*.xml')];assert reports and all(int(r.attrib['failures'])+int(r.attrib['errors'])+int(r.attrib.get('skipped',0))==0 for r in reports),'Run ./gradlew test jar first'
- jar=ROOT/f'build/libs/Pokemonika-Free-{VERSION}.jar';assert jar.exists()
+ jar=ROOT/f'build/libs/Pixelmonika-Free-{VERSION}.jar';assert jar.exists()
+ compact=ROOT/f'build/libs/Pixelmonika-Free-{VERSION}-spigot.jar';assert compact.exists()
+ with zipfile.ZipFile(compact) as archive:
+  expected=(ROOT/'src/main/resources/plugin.yml').read_bytes()+b'\nlibraries:\n  - org.xerial:sqlite-jdbc:3.50.3.0\n'
+  assert archive.read('plugin.yml')==expected
+  assert not any(n.startswith('org/sqlite/') or n.startswith('upgrades/') or any('/'+c+'.class' in n for c in FORBIDDEN) for n in archive.namelist())
+  for path in (ROOT/'src/main/resources').rglob('*.yml'):
+   if path.name!='plugin.yml':assert archive.read(path.relative_to(ROOT/'src/main/resources').as_posix())==path.read_bytes()
+  for path in (ROOT/'build/classes/java/main').rglob('*.class'):assert archive.read(path.relative_to(ROOT/'build/classes/java/main').as_posix())==path.read_bytes()
  with zipfile.ZipFile(jar) as archive:
   assert not any(n.startswith('net/citizensnpcs/') or any('/'+c+'.class' in n for c in FORBIDDEN) or n.startswith('upgrades/') for n in archive.namelist())
   for path in (ROOT/'src/main/resources').rglob('*.yml'):assert archive.read(path.relative_to(ROOT/'src/main/resources').as_posix())==path.read_bytes()
   for path in (ROOT/'build/classes/java/main').rglob('*.class'):assert archive.read(path.relative_to(ROOT/'build/classes/java/main').as_posix())==path.read_bytes()
- dist=ROOT/'dist';dist.mkdir(exist_ok=True);shutil.copy2(jar,dist/jar.name)
- with zipfile.ZipFile(dist/f'Pokemonika-Free-{VERSION}-sources.zip','w',zipfile.ZIP_DEFLATED) as archive:
-  for path in files:archive.write(path,'Pokemonika-Free/'+path.relative_to(ROOT).as_posix())
- with zipfile.ZipFile(dist/f'Pokemonika-Free-{VERSION}.zip','w',zipfile.ZIP_DEFLATED) as archive:
+ dist=ROOT/'dist';dist.mkdir(exist_ok=True);shutil.copy2(jar,dist/jar.name);shutil.copy2(compact,dist/compact.name)
+ with zipfile.ZipFile(dist/f'Pixelmonika-Free-{VERSION}-sources.zip','w',zipfile.ZIP_DEFLATED) as archive:
+  for path in files:archive.write(path,'Pixelmonika-Free/'+path.relative_to(ROOT).as_posix())
+ with zipfile.ZipFile(dist/f'Pixelmonika-Free-{VERSION}.zip','w',zipfile.ZIP_DEFLATED) as archive:
   archive.write(jar,jar.name)
+  archive.write(compact,compact.name)
   for name in ['README.md','README.ru.md','LICENSE','THIRD_PARTY.md']:archive.write(ROOT/name,name)
- info={'edition':'free','version':VERSION,'species':10,'signatureMoves':40,'balls':1,'partySlots':6,'storageSlots':45,'defaultLanguage':'en','languages':['en','ru'],'testsPassed':sum(int(r.attrib['tests']) for r in reports),'serverValidation':'not-run-user-request','publicSourceFiles':len(files),'jarSha256':hashlib.sha256(jar.read_bytes()).hexdigest()}
- (dist/'build-info.json').write_text(json.dumps(info,indent=2)+'\n');(dist/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name+'\n' for p in sorted(dist.iterdir()) if p.suffix in {'.jar','.zip'}))
+  for folder in ['assets','docs']:
+   for path in sorted((ROOT/folder).rglob('*')):
+    if path.is_file():archive.write(path,path.relative_to(ROOT).as_posix())
+ info={'name':'Pixelmonika','edition':'free','version':VERSION,'species':10,'signatureMoves':40,'balls':1,'partySlots':6,'storageSlots':45,'defaultLanguage':'en','languages':['en','ru'],'testsPassed':sum(int(r.attrib['tests']) for r in reports),'serverValidation':'not-run-in-this-session','publicSourceFiles':len(files),'jarSha256':hashlib.sha256(jar.read_bytes()).hexdigest(),'compactJarSha256':hashlib.sha256(compact.read_bytes()).hexdigest()}
+ (dist/'build-info.json').write_text(json.dumps(info,indent=2)+'\n');(dist/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name+'\n' for p in sorted(dist.glob('Pixelmonika-Free-*')) if p.suffix in {'.jar','.zip'}))
  (dist/'public-files.txt').write_text(''.join(p.relative_to(ROOT).as_posix()+'\n' for p in files));print(json.dumps(info))
 if __name__=='__main__':main()

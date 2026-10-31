@@ -1,18 +1,22 @@
-name: Pokemonika
+name: Pixelmonika
 version: 2.2.0-free
 main: ru.vanillamon.VanillaMon
 api-version: '26.3'
 description: Pokemon catching and wild battles for Paper
 authors: [TheViniAnd]
 commands:
-  pokemonika:
-    description: Pokemonika commands
-    aliases: [creatures, vm, pk]
+  pixelmonika:
+    description: Pixelmonika commands
+    aliases: [pokemonika, creatures, vm, pk]
   pc:
     description: Pokemon storage
   dex:
     description: Pokedex
 permissions:
+  pixelmonika.play:
+    default: true
+  pixelmonika.admin:
+    default: op
   pokemonika.play:
     default: true
   pokemonika.admin:
