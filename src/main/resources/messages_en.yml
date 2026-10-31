@@ -1,0 +1,199 @@
+{
+  "prefix": "[Pokemonika Free] ",
+  "ready": "Ready. /pokemonika",
+  "loading": "Loading your data. Try again shortly.",
+  "denied": "You cannot use this action.",
+  "busy": "An action is still in progress.",
+  "error": "Could not confirm the save. See the server log.",
+  "full": "No free space or the limit has been reached.",
+  "starter": {
+    "already": "You already received a starter.",
+    "done": "Starter saved. Your Poke Balls will be delivered when inventory space is available."
+  },
+  "capture": {
+    "success": "Caught {name}! Stored in: {place}.",
+    "failure": "The Pokemon broke free!",
+    "throw": "Poke Ball thrown.",
+    "no-ball": "You need a Pokemonika Poke Ball."
+  },
+  "battle": {
+    "start": "Battle with {name}! Choose an action.",
+    "win": "Victory! +{xp} XP; levels gained: {levels}.",
+    "loss": "Your team fainted. /pokemonika heal",
+    "end": "Battle ended.",
+    "move": "{name}: {move}, {damage} damage.",
+    "no-pp": "This move has no PP left.",
+    "choose": "Choose an action in the battle menu."
+  },
+  "heal": {
+    "done": "HP and PP restored.",
+    "wait": "Next healing in {seconds}s.",
+    "battle": "Finish your battle first."
+  },
+  "world": {
+    "label": "{name} · Lv. {level} · {hp}/{max} HP",
+    "unsafe": "There is no safe open space nearby."
+  },
+  "creature": {
+    "name": "{name} · Lv. {level}"
+  },
+  "team": {
+    "empty": "No conscious party Pokemon. /pokemonika starter or heal",
+    "changed": "Party saved.",
+    "slot": "Slot {slot}",
+    "invalid": "Action unavailable. Check free slots and reopen the menu."
+  },
+  "menu": {
+    "team": "Pokemonika · Party",
+    "starter": "Choose your starter",
+    "pc": "Storage",
+    "dex": "Pokedex · {page}/{pages}",
+    "battle": "Battle · Choose an action",
+    "switch": "Switch Pokemon",
+    "detail": "Stats and actions",
+    "balls": "Poke Balls",
+    "balls-capture": "Choose a Poke Ball",
+    "ball-recipe": "Recipe · {ball}"
+  },
+  "button": {
+    "back": "Back",
+    "next": "Next page",
+    "previous": "Previous page",
+    "capture": "Catch",
+    "switch": "Switch · uses a turn",
+    "flee": "Flee",
+    "reopen": "Return to battle",
+    "heal": "Heal all",
+    "active": "Set active",
+    "store": "Move to storage",
+    "withdraw": "Add to party",
+    "swap": "Change party slot",
+    "storage": "Open storage"
+  },
+  "lore": {
+    "stats": "Attack {attack} · Defense {defence} · Speed {speed} · XP {xp}/{next}",
+    "hp": "HP: {hp}/{max}",
+    "move": "{name} · Power {power} · PP {pp}/{max}",
+    "slot": "{place} · slot {slot}",
+    "team": "Party",
+    "pc": "Storage",
+    "select": "Click to choose",
+    "active": "★ Active Pokemon",
+    "special": "Special attack and defense: {special}",
+    "timing": "Impact: {seconds}s · Priority {speed}",
+    "types": "Type: {types}",
+    "size": "{measure}: {metres} m",
+    "dex-stats": "Base HP {hp} · Attack {attack} · Defense {defence}",
+    "dex-speed": "Speed {speed} · Special {special}",
+    "ball-chance": "Owned: {count} · Catch chance: {chance}%",
+    "ball-admin": "Not craftable",
+    "ball-recipe": "Click to view recipe",
+    "ball-disabled": "Crafting is disabled"
+  },
+  "dex": {
+    "0": "Undiscovered",
+    "1": "Seen",
+    "2": "Caught"
+  },
+  "ball": {
+    "name": "Poke Ball"
+  },
+  "admin": {
+    "done": "Done.",
+    "usage": "/pokemonika admin give <player> <species> <1-100> | spawn <species> <level> | balls <player> [type] <1-1024> | clear | reload | stats",
+    "stats": "Pokemon: {actors}; model entities: {parts}; battles: {battles}; loaded players: {players}."
+  },
+  "reload": {
+    "ok": "Configuration reloaded.",
+    "fail": "Invalid configuration. Previous settings remain active; see the log."
+  },
+  "command": {
+    "help": "/pokemonika: starter, heal, balls, admin",
+    "player": "This command is for players."
+  },
+  "delivery": {
+    "queued": "Delivery queued. Free some inventory space.",
+    "done": "Delivered: {amount} × {ball}."
+  },
+  "types": {
+    "NORMAL": "Normal",
+    "FIRE": "Fire",
+    "WATER": "Water",
+    "GRASS": "Grass",
+    "ELECTRIC": "Electric",
+    "ICE": "Ice",
+    "FIGHTING": "Fighting",
+    "POISON": "Poison",
+    "GROUND": "Ground",
+    "FLYING": "Flying",
+    "PSYCHIC": "Psychic",
+    "BUG": "Bug",
+    "ROCK": "Rock",
+    "GHOST": "Ghost",
+    "DRAGON": "Dragon"
+  },
+  "size": {
+    "height": "Height",
+    "length": "Length"
+  },
+  "balls": {
+    "poke": {
+      "name": "Poke Ball",
+      "description": "Standard catching ball."
+    }
+  },
+  "species": {
+    "pikachu": "Pikachu",
+    "charmander": "Charmander",
+    "bulbasaur": "Bulbasaur",
+    "squirtle": "Squirtle",
+    "eevee": "Eevee",
+    "vulpix": "Vulpix",
+    "psyduck": "Psyduck",
+    "pidgey": "Pidgey",
+    "slowpoke": "Slowpoke",
+    "magikarp": "Magikarp"
+  },
+  "moves": {
+    "pikachu_1": "Cheek Spark",
+    "pikachu_2": "Static Dash",
+    "pikachu_3": "Tail Thunder",
+    "pikachu_4": "Electric Crown",
+    "charmander_1": "Ember Flick",
+    "charmander_2": "Cinder Claw",
+    "charmander_3": "Flame Tail",
+    "charmander_4": "Blazing Spiral",
+    "bulbasaur_1": "Sprout Lash",
+    "bulbasaur_2": "Seed Scatter",
+    "bulbasaur_3": "Poison Pollen",
+    "bulbasaur_4": "Bulb Beam",
+    "squirtle_1": "Bubble Jet",
+    "squirtle_2": "Shell Sweep",
+    "squirtle_3": "Tail Splash",
+    "squirtle_4": "Spiral Torrent",
+    "eevee_1": "Velvet Pounce",
+    "eevee_2": "Fluffy Sweep",
+    "eevee_3": "Eevee Stars",
+    "eevee_4": "Adaptable Rush",
+    "vulpix_1": "Foxfire Flick",
+    "vulpix_2": "Six-Tail Fan",
+    "vulpix_3": "Ember Waltz",
+    "vulpix_4": "Foxfire Vortex",
+    "psyduck_1": "Confused Peck",
+    "psyduck_2": "Duck Splash",
+    "psyduck_3": "Headache Wave",
+    "psyduck_4": "Psychic Downpour",
+    "pidgey_1": "Feather Flick",
+    "pidgey_2": "Little Wing Gust",
+    "pidgey_3": "Dusty Swoop",
+    "pidgey_4": "Sky Spiral",
+    "slowpoke_1": "Lazy Paw",
+    "slowpoke_2": "Tail Ripple",
+    "slowpoke_3": "Slow Mindwave",
+    "slowpoke_4": "Drowsy Mindwave",
+    "magikarp_1": "Tiny Splash",
+    "magikarp_2": "Fin Flick",
+    "magikarp_3": "Golden Leap",
+    "magikarp_4": "Carp Current"
+  }
+}

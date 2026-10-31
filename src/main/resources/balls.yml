@@ -1,0 +1,23 @@
+{
+  "poke": {
+    "rule": "STANDARD",
+    "multiplier": 1,
+    "parameters": {},
+    "top": "RED_CONCRETE",
+    "band": "BLACK_CONCRETE",
+    "trim": "RED_CONCRETE",
+    "heal": false,
+    "recipe": [
+      "REDSTONE",
+      "WHITE_WOOL",
+      "REDSTONE",
+      "WHITE_WOOL",
+      "SNOWBALL",
+      "WHITE_WOOL",
+      "REDSTONE",
+      "WHITE_WOOL",
+      "REDSTONE"
+    ],
+    "craft-amount": 4
+  }
+}

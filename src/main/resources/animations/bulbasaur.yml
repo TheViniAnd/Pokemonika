@@ -1,0 +1,421 @@
+{
+  "idle": {
+    "ticks": 60,
+    "loop": true,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.018,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "head": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          4,
+          0
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "walk": {
+    "ticks": 16,
+    "loop": true,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.035,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "head": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          2,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "leg_bl": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          24,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "leg_br": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          24,
+          0,
+          0
+        ],
+        "phase": 3.141592653589793
+      },
+      "leg_fl": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          24,
+          0,
+          0
+        ],
+        "phase": 3.141592653589793
+      },
+      "leg_fr": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          24,
+          0,
+          0
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "attack": {
+    "ticks": 20,
+    "loop": false,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.05,
+          0.28
+        ],
+        "rotate": [
+          -15,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "head": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          12,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "bulb": {
+        "move": [
+          0,
+          0.12,
+          0
+        ],
+        "rotate": [
+          0,
+          20,
+          0
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "hurt": {
+    "ticks": 12,
+    "loop": false,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0,
+          -0.16
+        ],
+        "rotate": [
+          0,
+          0,
+          12
+        ],
+        "phase": 0
+      },
+      "head": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          -10,
+          0,
+          0
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "capture": {
+    "ticks": 24,
+    "loop": false,
+    "scale-end": 0,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.2,
+          0
+        ],
+        "rotate": [
+          0,
+          30,
+          0
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "faint": {
+    "ticks": 30,
+    "loop": false,
+    "scale-end": 0.7,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          -0.1,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          80
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "attacks": {
+    "bulbasaur_1": {
+      "ticks": 20,
+      "hit-tick": 11,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            0.02,
+            -0.14
+          ],
+          "rotate": [
+            -12,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -6,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "bulb": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            -18,
+            0,
+            22
+          ],
+          "phase": 0
+        }
+      }
+    },
+    "bulbasaur_2": {
+      "ticks": 31,
+      "hit-tick": 22,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            0.02,
+            -0.14
+          ],
+          "rotate": [
+            -12,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -6,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "bulb": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            -18,
+            13,
+            22
+          ],
+          "phase": 0
+        }
+      }
+    },
+    "bulbasaur_3": {
+      "ticks": 42,
+      "hit-tick": 33,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            0.02,
+            -0.14
+          ],
+          "rotate": [
+            -12,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -6,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "bulb": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            -18,
+            26,
+            22
+          ],
+          "phase": 0
+        }
+      }
+    },
+    "bulbasaur_4": {
+      "ticks": 53,
+      "hit-tick": 44,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            0.02,
+            -0.14
+          ],
+          "rotate": [
+            -12,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -24,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "bulb": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            -18,
+            39,
+            22
+          ],
+          "phase": 0
+        }
+      }
+    }
+  }
+}

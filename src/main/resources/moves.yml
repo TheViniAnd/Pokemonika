@@ -1,0 +1,242 @@
+{
+  "pikachu_1": {
+    "type": "ELECTRIC",
+    "power": 18.17,
+    "uses": 25,
+    "speed-bonus": 41
+  },
+  "pikachu_2": {
+    "type": "NORMAL",
+    "power": 32.17,
+    "uses": 20,
+    "speed-bonus": 24
+  },
+  "pikachu_3": {
+    "type": "ELECTRIC",
+    "power": 51.17,
+    "uses": 15,
+    "speed-bonus": 10
+  },
+  "pikachu_4": {
+    "type": "ELECTRIC",
+    "power": 73.17,
+    "uses": 8,
+    "speed-bonus": -6
+  },
+  "charmander_1": {
+    "type": "FIRE",
+    "power": 18.34,
+    "uses": 25,
+    "speed-bonus": 37
+  },
+  "charmander_2": {
+    "type": "FIRE",
+    "power": 32.34,
+    "uses": 20,
+    "speed-bonus": 20
+  },
+  "charmander_3": {
+    "type": "FIRE",
+    "power": 51.34,
+    "uses": 15,
+    "speed-bonus": 6
+  },
+  "charmander_4": {
+    "type": "FIRE",
+    "power": 73.34,
+    "uses": 8,
+    "speed-bonus": -10
+  },
+  "bulbasaur_1": {
+    "type": "GRASS",
+    "power": 18.51,
+    "uses": 25,
+    "speed-bonus": 38
+  },
+  "bulbasaur_2": {
+    "type": "GRASS",
+    "power": 32.51,
+    "uses": 20,
+    "speed-bonus": 21
+  },
+  "bulbasaur_3": {
+    "type": "POISON",
+    "power": 51.51,
+    "uses": 15,
+    "speed-bonus": 7
+  },
+  "bulbasaur_4": {
+    "type": "GRASS",
+    "power": 73.51,
+    "uses": 8,
+    "speed-bonus": -9
+  },
+  "squirtle_1": {
+    "type": "WATER",
+    "power": 18.68,
+    "uses": 25,
+    "speed-bonus": 36
+  },
+  "squirtle_2": {
+    "type": "NORMAL",
+    "power": 32.68,
+    "uses": 20,
+    "speed-bonus": 19
+  },
+  "squirtle_3": {
+    "type": "WATER",
+    "power": 51.68,
+    "uses": 15,
+    "speed-bonus": 5
+  },
+  "squirtle_4": {
+    "type": "WATER",
+    "power": 73.68,
+    "uses": 8,
+    "speed-bonus": -11
+  },
+  "eevee_1": {
+    "type": "NORMAL",
+    "power": 18.85,
+    "uses": 25,
+    "speed-bonus": 41
+  },
+  "eevee_2": {
+    "type": "GROUND",
+    "power": 32.85,
+    "uses": 20,
+    "speed-bonus": 24
+  },
+  "eevee_3": {
+    "type": "NORMAL",
+    "power": 51.85,
+    "uses": 15,
+    "speed-bonus": 10
+  },
+  "eevee_4": {
+    "type": "NORMAL",
+    "power": 73.85,
+    "uses": 8,
+    "speed-bonus": -6
+  },
+  "vulpix_1": {
+    "type": "FIRE",
+    "power": 19.02,
+    "uses": 25,
+    "speed-bonus": 37
+  },
+  "vulpix_2": {
+    "type": "FIRE",
+    "power": 33.02,
+    "uses": 20,
+    "speed-bonus": 20
+  },
+  "vulpix_3": {
+    "type": "FIRE",
+    "power": 52.02,
+    "uses": 15,
+    "speed-bonus": 6
+  },
+  "vulpix_4": {
+    "type": "FIRE",
+    "power": 74.02,
+    "uses": 8,
+    "speed-bonus": -10
+  },
+  "psyduck_1": {
+    "type": "WATER",
+    "power": 19.36,
+    "uses": 25,
+    "speed-bonus": 41
+  },
+  "psyduck_2": {
+    "type": "NORMAL",
+    "power": 33.36,
+    "uses": 20,
+    "speed-bonus": 24
+  },
+  "psyduck_3": {
+    "type": "PSYCHIC",
+    "power": 52.36,
+    "uses": 15,
+    "speed-bonus": 10
+  },
+  "psyduck_4": {
+    "type": "WATER",
+    "power": 74.36,
+    "uses": 8,
+    "speed-bonus": -6
+  },
+  "pidgey_1": {
+    "type": "FLYING",
+    "power": 22.08,
+    "uses": 25,
+    "speed-bonus": 35
+  },
+  "pidgey_2": {
+    "type": "GROUND",
+    "power": 36.08,
+    "uses": 20,
+    "speed-bonus": 18
+  },
+  "pidgey_3": {
+    "type": "FLYING",
+    "power": 55.08,
+    "uses": 15,
+    "speed-bonus": 4
+  },
+  "pidgey_4": {
+    "type": "FLYING",
+    "power": 77.08,
+    "uses": 8,
+    "speed-bonus": -12
+  },
+  "slowpoke_1": {
+    "type": "NORMAL",
+    "power": 25.14,
+    "uses": 25,
+    "speed-bonus": 36
+  },
+  "slowpoke_2": {
+    "type": "WATER",
+    "power": 39.14,
+    "uses": 20,
+    "speed-bonus": 19
+  },
+  "slowpoke_3": {
+    "type": "PSYCHIC",
+    "power": 58.14,
+    "uses": 15,
+    "speed-bonus": 5
+  },
+  "slowpoke_4": {
+    "type": "WATER",
+    "power": 80.14,
+    "uses": 8,
+    "speed-bonus": -11
+  },
+  "magikarp_1": {
+    "type": "WATER",
+    "power": 3.43,
+    "uses": 25,
+    "speed-bonus": 38
+  },
+  "magikarp_2": {
+    "type": "NORMAL",
+    "power": 8.43,
+    "uses": 20,
+    "speed-bonus": 21
+  },
+  "magikarp_3": {
+    "type": "NORMAL",
+    "power": 12.43,
+    "uses": 15,
+    "speed-bonus": 7
+  },
+  "magikarp_4": {
+    "type": "WATER",
+    "power": 17.43,
+    "uses": 8,
+    "speed-bonus": -9
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "idle": {
+    "ticks": 60,
+    "loop": true,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.02,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "head": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          3,
+          0
+        ],
+        "phase": 0
+      },
+      "tail": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          5,
+          3
+        ],
+        "phase": 1.7999999999999998
+      }
+    }
+  },
+  "walk": {
+    "ticks": 18,
+    "loop": true,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.03,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "leg_bl": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          24,
+          0,
+          0
+        ],
+        "phase": 3.141592653589793
+      },
+      "leg_br": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          24,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "leg_fl": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          24,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "leg_fr": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          24,
+          0,
+          0
+        ],
+        "phase": 3.141592653589793
+      },
+      "tail": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          10,
+          5
+        ],
+        "phase": 2.4000000000000004
+      }
+    }
+  },
+  "attack": {
+    "ticks": 20,
+    "loop": false,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.06,
+          0.25
+        ],
+        "rotate": [
+          -15,
+          0,
+          0
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "hurt": {
+    "ticks": 12,
+    "loop": false,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0,
+          -0.15
+        ],
+        "rotate": [
+          0,
+          0,
+          12
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "capture": {
+    "ticks": 24,
+    "loop": false,
+    "scale-end": 0,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.2,
+          0
+        ],
+        "rotate": [
+          0,
+          30,
+          0
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "faint": {
+    "ticks": 30,
+    "loop": false,
+    "scale-end": 0.7,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          -0.1,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          80
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "attacks": {
+    "eevee_1": {
+      "ticks": 18,
+      "hit-tick": 11,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            0.35,
+            0.35
+          ],
+          "rotate": [
+            -28,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -6,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "leg_bl": {
+          "move": [
+            0,
+            0.05,
+            0
+          ],
+          "rotate": [
+            -35,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "leg_br": {
+          "move": [
+            0,
+            0.05,
+            0
+          ],
+          "rotate": [
+            45,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "leg_fl": {
+          "move": [
+            0,
+            0.05,
+            0
+          ],
+          "rotate": [
+            -35,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "leg_fr": {
+          "move": [
+            0,
+            0.05,
+            0
+          ],
+          "rotate": [
+            45,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "tail": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            12,
+            -28,
+            20
+          ],
+          "phase": 0
+        }
+      }
+    },
+    "eevee_2": {
+      "ticks": 29,
+      "hit-tick": 22,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            -0.12,
+            0.06
+          ],
+          "rotate": [
+            18,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -6,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "tail": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            12,
+            -28,
+            20
+          ],
+          "phase": 0
+        }
+      }
+    },
+    "eevee_3": {
+      "ticks": 40,
+      "hit-tick": 33,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            0.02,
+            -0.14
+          ],
+          "rotate": [
+            -12,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -6,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "tail": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            12,
+            -28,
+            20
+          ],
+          "phase": 0
+        }
+      }
+    },
+    "eevee_4": {
+      "ticks": 51,
+      "hit-tick": 44,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            -0.06,
+            0.36
+          ],
+          "rotate": [
+            0,
+            0,
+            80
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -6,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "leg_bl": {
+          "move": [
+            0,
+            0.05,
+            0
+          ],
+          "rotate": [
+            -35,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "leg_br": {
+          "move": [
+            0,
+            0.05,
+            0
+          ],
+          "rotate": [
+            45,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "leg_fl": {
+          "move": [
+            0,
+            0.05,
+            0
+          ],
+          "rotate": [
+            -35,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "leg_fr": {
+          "move": [
+            0,
+            0.05,
+            0
+          ],
+          "rotate": [
+            45,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "tail": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            12,
+            -28,
+            20
+          ],
+          "phase": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "height": 1.23,
+  "width": 1.0,
+  "parts": [
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        -0.33,
+        0.22,
+        -0.4
+      ],
+      "scale": [
+        0.66,
+        0.4,
+        0.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "body",
+      "pivot": [
+        0,
+        0.5,
+        0
+      ]
+    },
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        -0.43,
+        0.3,
+        0.05
+      ],
+      "scale": [
+        0.86,
+        0.42,
+        0.53
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "material": "GREEN_CONCRETE",
+      "position": [
+        -0.28,
+        0.6,
+        -0.39
+      ],
+      "scale": [
+        0.56,
+        0.3,
+        0.49
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "bulb",
+      "pivot": [
+        0,
+        0.65,
+        -0.13
+      ]
+    },
+    {
+      "material": "LIME_TERRACOTTA",
+      "position": [
+        -0.21,
+        0.87,
+        -0.31
+      ],
+      "scale": [
+        0.42,
+        0.27,
+        0.34
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "bulb",
+      "pivot": [
+        0,
+        0.65,
+        -0.13
+      ]
+    },
+    {
+      "material": "GREEN_CONCRETE",
+      "position": [
+        -0.1,
+        1.08,
+        -0.23
+      ],
+      "scale": [
+        0.2,
+        0.15,
+        0.18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "bulb",
+      "pivot": [
+        0,
+        0.65,
+        -0.13
+      ]
+    },
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        -0.39,
+        0,
+        0.15
+      ],
+      "scale": [
+        0.2,
+        0.31,
+        0.23
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "leg_fl",
+      "pivot": [
+        -0.29,
+        0.3,
+        0.25
+      ]
+    },
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        0.18999999999999997,
+        0,
+        0.15
+      ],
+      "scale": [
+        0.2,
+        0.31,
+        0.23
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "leg_fr",
+      "pivot": [
+        0.29,
+        0.3,
+        0.25
+      ]
+    },
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        -0.39,
+        0,
+        -0.4
+      ],
+      "scale": [
+        0.2,
+        0.31,
+        0.23
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "leg_bl",
+      "pivot": [
+        -0.29,
+        0.3,
+        -0.3
+      ]
+    },
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        0.18999999999999997,
+        0,
+        -0.4
+      ],
+      "scale": [
+        0.2,
+        0.31,
+        0.23
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "leg_br",
+      "pivot": [
+        0.29,
+        0.3,
+        -0.3
+      ]
+    },
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        -0.42,
+        0.69,
+        0.15
+      ],
+      "scale": [
+        0.12,
+        0.16,
+        0.16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "material": "RED_CONCRETE",
+      "position": [
+        -0.33,
+        0.48,
+        0.587
+      ],
+      "scale": [
+        0.12,
+        0.14,
+        0.025
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "material": "WHITE_CONCRETE",
+      "position": [
+        -0.28500000000000003,
+        0.54,
+        0.614
+      ],
+      "scale": [
+        0.035,
+        0.05,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        -0.26,
+        0.35,
+        0.592
+      ],
+      "scale": [
+        0.1,
+        0.06,
+        0.015
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        0.3,
+        0.69,
+        0.15
+      ],
+      "scale": [
+        0.12,
+        0.16,
+        0.16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "material": "RED_CONCRETE",
+      "position": [
+        0.21000000000000002,
+        0.48,
+        0.587
+      ],
+      "scale": [
+        0.12,
+        0.14,
+        0.025
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "material": "WHITE_CONCRETE",
+      "position": [
+        0.255,
+        0.54,
+        0.614
+      ],
+      "scale": [
+        0.035,
+        0.05,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        0.15999999999999998,
+        0.35,
+        0.592
+      ],
+      "scale": [
+        0.1,
+        0.06,
+        0.015
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        -0.25,
+        0.52,
+        0.593
+      ],
+      "scale": [
+        0.12,
+        0.06,
+        0.015
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.45,
+        0.15
+      ]
+    },
+    {
+      "material": "CYAN_CONCRETE",
+      "position": [
+        0.08,
+        0.62,
+        0.593
+      ],
+      "scale": [
+        0.1,
+        0.05,
+        0.015
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.45,
+        0.15
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+config-version: 1
+edition: free
+language: en
+limits:
+  wild: 20
+  visible-per-player: 12
+  view-radius: 32
+engine:
+  update-ticks: 2
+  interpolation-ticks: 2
+spawn:
+  enabled: true
+  interval-ticks: 1200
+  attempts: 4
+  near-player: 28
+  chance: 0.25
+  max-near-player: 3
+  minimum-distance: 14
+  minimum-spacing: 12
+  lifetime-ticks: 9000
+game:
+  starter-level: 5
+  starter-balls: 16
+  heal-delay-seconds: 60
+  xp-factor: 10
+  xp-per-level: 12
+capture:
+  reference-level: 5
+  level-offset: 15
+  level-exponent: 0.55
+  hp-bonus: 2.0
+  minimum: 0.001
+  maximum: 0.95
+recipe:
+  enabled: true

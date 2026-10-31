@@ -1,0 +1,200 @@
+{
+  "pikachu": {
+    "worlds": [
+      "world"
+    ],
+    "biomes": [
+      "plains",
+      "forest",
+      "birch_forest",
+      "flower_forest",
+      "meadow"
+    ],
+    "min-level": 2,
+    "max-level": 16,
+    "time-from": 0,
+    "time-to": 23999,
+    "weight": 18,
+    "habitat": "LAND"
+  },
+  "charmander": {
+    "worlds": [
+      "world"
+    ],
+    "biomes": [
+      "desert",
+      "savanna",
+      "badlands",
+      "plains"
+    ],
+    "min-level": 2,
+    "max-level": 16,
+    "time-from": 0,
+    "time-to": 23999,
+    "weight": 18,
+    "habitat": "LAND"
+  },
+  "bulbasaur": {
+    "worlds": [
+      "world"
+    ],
+    "biomes": [
+      "plains",
+      "forest",
+      "birch_forest",
+      "flower_forest",
+      "meadow",
+      "jungle"
+    ],
+    "min-level": 2,
+    "max-level": 16,
+    "time-from": 0,
+    "time-to": 23999,
+    "weight": 18,
+    "habitat": "LAND"
+  },
+  "squirtle": {
+    "worlds": [
+      "world"
+    ],
+    "biomes": [
+      "river",
+      "frozen_river",
+      "ocean",
+      "deep_ocean",
+      "lukewarm_ocean",
+      "warm_ocean",
+      "cold_ocean",
+      "beach",
+      "swamp",
+      "plains"
+    ],
+    "min-level": 2,
+    "max-level": 16,
+    "time-from": 0,
+    "time-to": 23999,
+    "weight": 18,
+    "habitat": "SHORE"
+  },
+  "eevee": {
+    "worlds": [
+      "world"
+    ],
+    "biomes": [
+      "plains",
+      "forest",
+      "birch_forest",
+      "flower_forest",
+      "meadow"
+    ],
+    "min-level": 2,
+    "max-level": 16,
+    "time-from": 0,
+    "time-to": 23999,
+    "weight": 18,
+    "habitat": "LAND"
+  },
+  "vulpix": {
+    "worlds": [
+      "world"
+    ],
+    "biomes": [
+      "desert",
+      "savanna",
+      "badlands",
+      "plains"
+    ],
+    "min-level": 2,
+    "max-level": 16,
+    "time-from": 0,
+    "time-to": 23999,
+    "weight": 18,
+    "habitat": "LAND"
+  },
+  "psyduck": {
+    "worlds": [
+      "world"
+    ],
+    "biomes": [
+      "river",
+      "frozen_river",
+      "ocean",
+      "deep_ocean",
+      "lukewarm_ocean",
+      "warm_ocean",
+      "cold_ocean",
+      "beach",
+      "swamp",
+      "plains"
+    ],
+    "min-level": 2,
+    "max-level": 16,
+    "time-from": 0,
+    "time-to": 23999,
+    "weight": 18,
+    "habitat": "SHORE"
+  },
+  "pidgey": {
+    "worlds": [
+      "world"
+    ],
+    "biomes": [
+      "plains",
+      "forest",
+      "birch_forest",
+      "flower_forest",
+      "meadow"
+    ],
+    "min-level": 2,
+    "max-level": 16,
+    "time-from": 0,
+    "time-to": 23999,
+    "weight": 18,
+    "habitat": "LAND"
+  },
+  "slowpoke": {
+    "worlds": [
+      "world"
+    ],
+    "biomes": [
+      "river",
+      "frozen_river",
+      "ocean",
+      "deep_ocean",
+      "lukewarm_ocean",
+      "warm_ocean",
+      "cold_ocean",
+      "beach",
+      "swamp",
+      "plains"
+    ],
+    "min-level": 2,
+    "max-level": 16,
+    "time-from": 0,
+    "time-to": 23999,
+    "weight": 18,
+    "habitat": "SHORE"
+  },
+  "magikarp": {
+    "worlds": [
+      "world"
+    ],
+    "biomes": [
+      "river",
+      "frozen_river",
+      "ocean",
+      "deep_ocean",
+      "lukewarm_ocean",
+      "warm_ocean",
+      "cold_ocean",
+      "beach",
+      "swamp"
+    ],
+    "min-level": 2,
+    "max-level": 16,
+    "time-from": 0,
+    "time-to": 23999,
+    "weight": 18,
+    "habitat": "WATER"
+  }
+}

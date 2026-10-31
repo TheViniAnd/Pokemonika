@@ -1,0 +1,564 @@
+{
+  "idle": {
+    "ticks": 60,
+    "loop": true,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.018,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "fin_l": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          7,
+          3
+        ],
+        "phase": 0.0
+      },
+      "fin_r": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          7,
+          3
+        ],
+        "phase": 0.3
+      },
+      "fin_top": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          7,
+          3
+        ],
+        "phase": 0.6
+      },
+      "tail": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          7,
+          3
+        ],
+        "phase": 1.2
+      }
+    }
+  },
+  "walk": {
+    "ticks": 18,
+    "loop": true,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.035,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "phase": 0
+      },
+      "fin_l": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          16,
+          5
+        ],
+        "phase": 0.0
+      },
+      "fin_r": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          16,
+          5
+        ],
+        "phase": 0.3
+      },
+      "fin_top": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          16,
+          5
+        ],
+        "phase": 0.6
+      },
+      "tail": {
+        "move": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          16,
+          5
+        ],
+        "phase": 1.2
+      }
+    }
+  },
+  "attack": {
+    "ticks": 20,
+    "loop": false,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.05,
+          0.25
+        ],
+        "rotate": [
+          -12,
+          0,
+          0
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "hurt": {
+    "ticks": 12,
+    "loop": false,
+    "scale-end": 1,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0,
+          -0.12
+        ],
+        "rotate": [
+          0,
+          0,
+          12
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "capture": {
+    "ticks": 24,
+    "loop": false,
+    "scale-end": 0,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          0.2,
+          0
+        ],
+        "rotate": [
+          0,
+          30,
+          0
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "faint": {
+    "ticks": 30,
+    "loop": false,
+    "scale-end": 0.7,
+    "groups": {
+      "root": {
+        "move": [
+          0,
+          -0.1,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          80
+        ],
+        "phase": 0
+      }
+    }
+  },
+  "attacks": {
+    "magikarp_1": {
+      "ticks": 16,
+      "hit-tick": 7,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            0.02,
+            -0.14
+          ],
+          "rotate": [
+            -12,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -6,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "fin_l": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            -50,
+            -25
+          ],
+          "phase": 0
+        },
+        "fin_r": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            50,
+            25
+          ],
+          "phase": 0
+        },
+        "fin_top": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            50,
+            25
+          ],
+          "phase": 0
+        },
+        "tail": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            12,
+            -28,
+            20
+          ],
+          "phase": 0
+        }
+      }
+    },
+    "magikarp_2": {
+      "ticks": 27,
+      "hit-tick": 18,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            0.04,
+            0.12
+          ],
+          "rotate": [
+            0,
+            -25,
+            -8
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -6,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "fin_l": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            -50,
+            -25
+          ],
+          "phase": 0
+        },
+        "fin_r": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            50,
+            25
+          ],
+          "phase": 0
+        },
+        "fin_top": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            50,
+            25
+          ],
+          "phase": 0
+        },
+        "tail": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            12,
+            -28,
+            20
+          ],
+          "phase": 0
+        }
+      }
+    },
+    "magikarp_3": {
+      "ticks": 38,
+      "hit-tick": 29,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            0.35,
+            0.35
+          ],
+          "rotate": [
+            -28,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -6,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "fin_l": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            -50,
+            -25
+          ],
+          "phase": 0
+        },
+        "fin_r": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            50,
+            25
+          ],
+          "phase": 0
+        },
+        "fin_top": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            50,
+            25
+          ],
+          "phase": 0
+        },
+        "tail": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            12,
+            -28,
+            20
+          ],
+          "phase": 0
+        }
+      }
+    },
+    "magikarp_4": {
+      "ticks": 49,
+      "hit-tick": 40,
+      "groups": {
+        "root": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            0,
+            32,
+            0
+          ],
+          "phase": 0
+        },
+        "head": {
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            -6,
+            0,
+            0
+          ],
+          "phase": 0
+        },
+        "fin_l": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            -50,
+            -25
+          ],
+          "phase": 0
+        },
+        "fin_r": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            50,
+            25
+          ],
+          "phase": 0
+        },
+        "fin_top": {
+          "move": [
+            0,
+            0.03,
+            0
+          ],
+          "rotate": [
+            0,
+            50,
+            25
+          ],
+          "phase": 0
+        },
+        "tail": {
+          "move": [
+            0,
+            0.13,
+            0
+          ],
+          "rotate": [
+            12,
+            -28,
+            20
+          ],
+          "phase": 0
+        }
+      }
+    }
+  }
+}

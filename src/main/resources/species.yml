@@ -1,0 +1,272 @@
+{
+  "pikachu": {
+    "type": "ELECTRIC",
+    "secondary-type": null,
+    "speed": 90,
+    "base-stats": {
+      "hp": 35,
+      "attack": 55,
+      "defence": 30,
+      "speed": 90,
+      "special": 50
+    },
+    "catch-rate": 0.25,
+    "icon": "YELLOW_DYE",
+    "moves": [
+      "pikachu_1",
+      "pikachu_2",
+      "pikachu_3",
+      "pikachu_4"
+    ],
+    "habitat": "LAND",
+    "dex-number": 25,
+    "weight-kg": 6.0,
+    "size": {
+      "metres": 0.4,
+      "axis": "HEIGHT"
+    }
+  },
+  "charmander": {
+    "type": "FIRE",
+    "secondary-type": null,
+    "speed": 65,
+    "base-stats": {
+      "hp": 39,
+      "attack": 52,
+      "defence": 43,
+      "speed": 65,
+      "special": 50
+    },
+    "catch-rate": 0.3,
+    "icon": "BLAZE_POWDER",
+    "moves": [
+      "charmander_1",
+      "charmander_2",
+      "charmander_3",
+      "charmander_4"
+    ],
+    "habitat": "LAND",
+    "dex-number": 4,
+    "weight-kg": 8.5,
+    "size": {
+      "metres": 0.6,
+      "axis": "HEIGHT"
+    }
+  },
+  "bulbasaur": {
+    "type": "GRASS",
+    "secondary-type": "POISON",
+    "speed": 45,
+    "base-stats": {
+      "hp": 45,
+      "attack": 49,
+      "defence": 49,
+      "speed": 45,
+      "special": 65
+    },
+    "catch-rate": 0.3,
+    "icon": "SEAGRASS",
+    "moves": [
+      "bulbasaur_1",
+      "bulbasaur_2",
+      "bulbasaur_3",
+      "bulbasaur_4"
+    ],
+    "habitat": "LAND",
+    "dex-number": 1,
+    "weight-kg": 6.9,
+    "size": {
+      "metres": 0.7,
+      "axis": "HEIGHT"
+    }
+  },
+  "squirtle": {
+    "type": "WATER",
+    "secondary-type": null,
+    "speed": 43,
+    "base-stats": {
+      "hp": 44,
+      "attack": 48,
+      "defence": 65,
+      "speed": 43,
+      "special": 50
+    },
+    "catch-rate": 0.3,
+    "icon": "PRISMARINE_SHARD",
+    "moves": [
+      "squirtle_1",
+      "squirtle_2",
+      "squirtle_3",
+      "squirtle_4"
+    ],
+    "habitat": "SHORE",
+    "dex-number": 7,
+    "weight-kg": 9.0,
+    "size": {
+      "metres": 0.5,
+      "axis": "HEIGHT"
+    }
+  },
+  "eevee": {
+    "type": "NORMAL",
+    "secondary-type": null,
+    "speed": 55,
+    "base-stats": {
+      "hp": 55,
+      "attack": 55,
+      "defence": 50,
+      "speed": 55,
+      "special": 65
+    },
+    "catch-rate": 0.0882,
+    "icon": "RABBIT_HIDE",
+    "moves": [
+      "eevee_1",
+      "eevee_2",
+      "eevee_3",
+      "eevee_4"
+    ],
+    "habitat": "LAND",
+    "dex-number": 133,
+    "weight-kg": 6.5,
+    "size": {
+      "metres": 0.3,
+      "axis": "HEIGHT"
+    }
+  },
+  "magikarp": {
+    "type": "WATER",
+    "secondary-type": null,
+    "speed": 80,
+    "base-stats": {
+      "hp": 20,
+      "attack": 10,
+      "defence": 55,
+      "speed": 80,
+      "special": 20
+    },
+    "catch-rate": 0.5,
+    "icon": "PRISMARINE_SHARD",
+    "moves": [
+      "magikarp_1",
+      "magikarp_2",
+      "magikarp_3",
+      "magikarp_4"
+    ],
+    "habitat": "WATER",
+    "dex-number": 129,
+    "weight-kg": 10.0,
+    "size": {
+      "metres": 0.9,
+      "axis": "LENGTH"
+    }
+  },
+  "slowpoke": {
+    "type": "WATER",
+    "secondary-type": "PSYCHIC",
+    "speed": 15,
+    "base-stats": {
+      "hp": 90,
+      "attack": 65,
+      "defence": 65,
+      "speed": 15,
+      "special": 40
+    },
+    "catch-rate": 0.3725,
+    "icon": "PRISMARINE_SHARD",
+    "moves": [
+      "slowpoke_1",
+      "slowpoke_2",
+      "slowpoke_3",
+      "slowpoke_4"
+    ],
+    "habitat": "SHORE",
+    "dex-number": 79,
+    "weight-kg": 36.0,
+    "size": {
+      "metres": 1.2,
+      "axis": "HEIGHT"
+    }
+  },
+  "pidgey": {
+    "type": "NORMAL",
+    "secondary-type": "FLYING",
+    "speed": 56,
+    "base-stats": {
+      "hp": 40,
+      "attack": 45,
+      "defence": 40,
+      "speed": 56,
+      "special": 35
+    },
+    "catch-rate": 0.5,
+    "icon": "RABBIT_HIDE",
+    "moves": [
+      "pidgey_1",
+      "pidgey_2",
+      "pidgey_3",
+      "pidgey_4"
+    ],
+    "habitat": "LAND",
+    "dex-number": 16,
+    "weight-kg": 1.8,
+    "size": {
+      "metres": 0.3,
+      "axis": "HEIGHT"
+    }
+  },
+  "psyduck": {
+    "type": "WATER",
+    "secondary-type": null,
+    "speed": 55,
+    "base-stats": {
+      "hp": 50,
+      "attack": 52,
+      "defence": 48,
+      "speed": 55,
+      "special": 50
+    },
+    "catch-rate": 0.3725,
+    "icon": "PRISMARINE_SHARD",
+    "moves": [
+      "psyduck_1",
+      "psyduck_2",
+      "psyduck_3",
+      "psyduck_4"
+    ],
+    "habitat": "SHORE",
+    "dex-number": 54,
+    "weight-kg": 19.6,
+    "size": {
+      "metres": 0.8,
+      "axis": "HEIGHT"
+    }
+  },
+  "vulpix": {
+    "type": "FIRE",
+    "secondary-type": null,
+    "speed": 65,
+    "base-stats": {
+      "hp": 38,
+      "attack": 41,
+      "defence": 40,
+      "speed": 65,
+      "special": 65
+    },
+    "catch-rate": 0.3725,
+    "icon": "BLAZE_POWDER",
+    "moves": [
+      "vulpix_1",
+      "vulpix_2",
+      "vulpix_3",
+      "vulpix_4"
+    ],
+    "habitat": "LAND",
+    "dex-number": 37,
+    "weight-kg": 9.9,
+    "size": {
+      "metres": 0.6,
+      "axis": "HEIGHT"
+    }
+  }
+}

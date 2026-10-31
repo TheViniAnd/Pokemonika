@@ -1,0 +1,414 @@
+{
+  "height": 1.15,
+  "width": 0.85,
+  "parts": [
+    {
+      "material": "LIGHT_BLUE_CONCRETE",
+      "position": [
+        -0.23,
+        0.2,
+        -0.18
+      ],
+      "scale": [
+        0.46,
+        0.5,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "body",
+      "pivot": [
+        0,
+        0.5,
+        0
+      ]
+    },
+    {
+      "material": "BROWN_CONCRETE",
+      "position": [
+        -0.3,
+        0.25,
+        -0.35
+      ],
+      "scale": [
+        0.6,
+        0.58,
+        0.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "shell",
+      "pivot": [
+        0,
+        0.45,
+        -0.18
+      ]
+    },
+    {
+      "material": "SANDSTONE",
+      "position": [
+        -0.3,
+        0.25,
+        -0.15
+      ],
+      "scale": [
+        0.6,
+        0.56,
+        0.07
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "shell",
+      "pivot": [
+        0,
+        0.45,
+        -0.18
+      ]
+    },
+    {
+      "material": "YELLOW_TERRACOTTA",
+      "position": [
+        -0.21,
+        0.26,
+        0.23
+      ],
+      "scale": [
+        0.42,
+        0.43,
+        0.045
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "body",
+      "pivot": [
+        0,
+        0.5,
+        0
+      ]
+    },
+    {
+      "material": "LIGHT_BLUE_CONCRETE",
+      "position": [
+        -0.3,
+        0.72,
+        -0.19
+      ],
+      "scale": [
+        0.6,
+        0.43,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.8,
+        0
+      ]
+    },
+    {
+      "material": "BROWN_TERRACOTTA",
+      "position": [
+        -0.22,
+        0.34,
+        -0.365
+      ],
+      "scale": [
+        0.44,
+        0.38,
+        0.03
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "shell",
+      "pivot": [
+        0,
+        0.45,
+        -0.18
+      ]
+    },
+    {
+      "material": "LIGHT_BLUE_CONCRETE",
+      "position": [
+        -0.37,
+        0.4,
+        -0.02
+      ],
+      "scale": [
+        0.16,
+        0.26,
+        0.22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "arm_l",
+      "pivot": [
+        -0.28,
+        0.62,
+        0.05
+      ]
+    },
+    {
+      "material": "LIGHT_BLUE_CONCRETE",
+      "position": [
+        -0.26,
+        0,
+        -0.03
+      ],
+      "scale": [
+        0.2,
+        0.24,
+        0.31
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "leg_l",
+      "pivot": [
+        -0.16,
+        0.22,
+        0
+      ]
+    },
+    {
+      "material": "BLACK_CONCRETE",
+      "position": [
+        -0.21000000000000002,
+        0.92,
+        0.316
+      ],
+      "scale": [
+        0.08,
+        0.13,
+        0.025
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.8,
+        0
+      ]
+    },
+    {
+      "material": "WHITE_CONCRETE",
+      "position": [
+        -0.185,
+        0.99,
+        0.343
+      ],
+      "scale": [
+        0.025,
+        0.035,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.8,
+        0
+      ]
+    },
+    {
+      "material": "LIGHT_BLUE_CONCRETE",
+      "position": [
+        0.20999999999999996,
+        0.4,
+        -0.02
+      ],
+      "scale": [
+        0.16,
+        0.26,
+        0.22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "arm_r",
+      "pivot": [
+        0.28,
+        0.62,
+        0.05
+      ]
+    },
+    {
+      "material": "LIGHT_BLUE_CONCRETE",
+      "position": [
+        0.06,
+        0,
+        -0.03
+      ],
+      "scale": [
+        0.2,
+        0.24,
+        0.31
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "leg_r",
+      "pivot": [
+        0.16,
+        0.22,
+        0
+      ]
+    },
+    {
+      "material": "BLACK_CONCRETE",
+      "position": [
+        0.13,
+        0.92,
+        0.316
+      ],
+      "scale": [
+        0.08,
+        0.13,
+        0.025
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.8,
+        0
+      ]
+    },
+    {
+      "material": "WHITE_CONCRETE",
+      "position": [
+        0.15500000000000003,
+        0.99,
+        0.343
+      ],
+      "scale": [
+        0.025,
+        0.035,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.8,
+        0
+      ]
+    },
+    {
+      "material": "LIGHT_BLUE_CONCRETE",
+      "position": [
+        -0.09,
+        0.2,
+        -0.54
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        0.28
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "tail",
+      "pivot": [
+        0,
+        0.3,
+        -0.25
+      ]
+    },
+    {
+      "material": "LIGHT_BLUE_CONCRETE",
+      "position": [
+        -0.09,
+        0.27,
+        -0.71
+      ],
+      "scale": [
+        0.18,
+        0.26,
+        0.18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "tail",
+      "pivot": [
+        0,
+        0.3,
+        -0.25
+      ]
+    },
+    {
+      "material": "LIGHT_BLUE_CONCRETE",
+      "position": [
+        -0.09,
+        0.47,
+        -0.64
+      ],
+      "scale": [
+        0.18,
+        0.14,
+        0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "tail",
+      "pivot": [
+        0,
+        0.3,
+        -0.25
+      ]
+    }
+  ]
+}

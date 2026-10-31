@@ -1,0 +1,23 @@
+name: Pokemonika
+version: 2.2.0-free
+main: ru.vanillamon.VanillaMon
+api-version: '26.3'
+description: Pokemon catching and wild battles for Paper
+authors: [TheViniAnd]
+commands:
+  pokemonika:
+    description: Pokemonika commands
+    aliases: [creatures, vm, pk]
+  pc:
+    description: Pokemon storage
+  dex:
+    description: Pokedex
+permissions:
+  pokemonika.play:
+    default: true
+  pokemonika.admin:
+    default: op
+  vanillamon.play:
+    default: true
+  vanillamon.admin:
+    default: op

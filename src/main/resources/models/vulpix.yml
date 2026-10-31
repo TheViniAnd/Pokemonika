@@ -1,0 +1,510 @@
+{
+  "height": 1.2,
+  "width": 0.85,
+  "parts": [
+    {
+      "material": "ORANGE_TERRACOTTA",
+      "position": [
+        -0.24,
+        0.2,
+        -0.27
+      ],
+      "scale": [
+        0.48,
+        0.38,
+        0.58
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "body",
+      "pivot": [
+        0,
+        0.5,
+        0
+      ]
+    },
+    {
+      "material": "ORANGE_TERRACOTTA",
+      "position": [
+        -0.27,
+        0.57,
+        0.02
+      ],
+      "scale": [
+        0.54,
+        0.36,
+        0.42
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.65,
+        0.1
+      ]
+    },
+    {
+      "material": "ORANGE_WOOL",
+      "position": [
+        -0.18,
+        0.57,
+        0.4
+      ],
+      "scale": [
+        0.36,
+        0.14,
+        0.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.65,
+        0.1
+      ]
+    },
+    {
+      "material": "BLACK_CONCRETE",
+      "position": [
+        -0.035,
+        0.65,
+        0.55
+      ],
+      "scale": [
+        0.07,
+        0.045,
+        0.02
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.65,
+        0.1
+      ]
+    },
+    {
+      "material": "ORANGE_TERRACOTTA",
+      "position": [
+        -0.255,
+        0.88,
+        0.08
+      ],
+      "scale": [
+        0.13,
+        0.22,
+        0.17
+      ],
+      "rotation": [
+        0,
+        0,
+        14
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.65,
+        0.1
+      ]
+    },
+    {
+      "material": "ORANGE_TERRACOTTA",
+      "position": [
+        0.125,
+        0.88,
+        0.08
+      ],
+      "scale": [
+        0.13,
+        0.22,
+        0.17
+      ],
+      "rotation": [
+        0,
+        0,
+        -14
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.65,
+        0.1
+      ]
+    },
+    {
+      "material": "BLACK_CONCRETE",
+      "position": [
+        -0.185,
+        0.75,
+        0.445
+      ],
+      "scale": [
+        0.07,
+        0.095,
+        0.022
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.8,
+        0
+      ]
+    },
+    {
+      "material": "BLACK_CONCRETE",
+      "position": [
+        0.11499999999999999,
+        0.75,
+        0.445
+      ],
+      "scale": [
+        0.07,
+        0.095,
+        0.022
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.8,
+        0
+      ]
+    },
+    {
+      "material": "RED_TERRACOTTA",
+      "position": [
+        -0.1,
+        0.94,
+        0.08
+      ],
+      "scale": [
+        0.11,
+        0.12,
+        0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.65,
+        0.1
+      ]
+    },
+    {
+      "material": "RED_TERRACOTTA",
+      "position": [
+        0.05,
+        0.94,
+        0.08
+      ],
+      "scale": [
+        0.11,
+        0.12,
+        0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "head",
+      "pivot": [
+        0,
+        0.65,
+        0.1
+      ]
+    },
+    {
+      "material": "ORANGE_TERRACOTTA",
+      "position": [
+        -0.305,
+        0,
+        0.14
+      ],
+      "scale": [
+        0.17,
+        0.25,
+        0.22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "leg_fl",
+      "pivot": [
+        -0.22,
+        0.25,
+        0.22
+      ]
+    },
+    {
+      "material": "ORANGE_TERRACOTTA",
+      "position": [
+        0.135,
+        0,
+        0.14
+      ],
+      "scale": [
+        0.17,
+        0.25,
+        0.22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "leg_fr",
+      "pivot": [
+        0.22,
+        0.25,
+        0.22
+      ]
+    },
+    {
+      "material": "ORANGE_TERRACOTTA",
+      "position": [
+        -0.305,
+        0,
+        -0.33
+      ],
+      "scale": [
+        0.17,
+        0.25,
+        0.22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "leg_bl",
+      "pivot": [
+        -0.22,
+        0.25,
+        -0.25
+      ]
+    },
+    {
+      "material": "ORANGE_TERRACOTTA",
+      "position": [
+        0.135,
+        0,
+        -0.33
+      ],
+      "scale": [
+        0.17,
+        0.25,
+        0.22
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "leg_br",
+      "pivot": [
+        0.22,
+        0.25,
+        -0.25
+      ]
+    },
+    {
+      "material": "ORANGE_WOOL",
+      "position": [
+        -0.3325,
+        0.395,
+        -0.64
+      ],
+      "scale": [
+        0.09,
+        0.47,
+        0.18
+      ],
+      "rotation": [
+        -24,
+        -30.0,
+        22.5
+      ],
+      "group": "tail_0",
+      "pivot": [
+        0,
+        0.36,
+        -0.25
+      ]
+    },
+    {
+      "material": "ORANGE_WOOL",
+      "position": [
+        -0.21750000000000003,
+        0.365,
+        -0.64
+      ],
+      "scale": [
+        0.09,
+        0.47,
+        0.18
+      ],
+      "rotation": [
+        -24,
+        -18.0,
+        13.5
+      ],
+      "group": "tail_1",
+      "pivot": [
+        0,
+        0.36,
+        -0.25
+      ]
+    },
+    {
+      "material": "ORANGE_WOOL",
+      "position": [
+        -0.10250000000000001,
+        0.335,
+        -0.64
+      ],
+      "scale": [
+        0.09,
+        0.47,
+        0.18
+      ],
+      "rotation": [
+        -24,
+        -6.0,
+        4.5
+      ],
+      "group": "tail_2",
+      "pivot": [
+        0,
+        0.36,
+        -0.25
+      ]
+    },
+    {
+      "material": "ORANGE_WOOL",
+      "position": [
+        0.012500000000000004,
+        0.335,
+        -0.64
+      ],
+      "scale": [
+        0.09,
+        0.47,
+        0.18
+      ],
+      "rotation": [
+        -24,
+        6.0,
+        -4.5
+      ],
+      "group": "tail_3",
+      "pivot": [
+        0,
+        0.36,
+        -0.25
+      ]
+    },
+    {
+      "material": "ORANGE_WOOL",
+      "position": [
+        0.1275,
+        0.365,
+        -0.64
+      ],
+      "scale": [
+        0.09,
+        0.47,
+        0.18
+      ],
+      "rotation": [
+        -24,
+        18.0,
+        -13.5
+      ],
+      "group": "tail_4",
+      "pivot": [
+        0,
+        0.36,
+        -0.25
+      ]
+    },
+    {
+      "material": "ORANGE_WOOL",
+      "position": [
+        0.24250000000000005,
+        0.395,
+        -0.64
+      ],
+      "scale": [
+        0.09,
+        0.47,
+        0.18
+      ],
+      "rotation": [
+        -24,
+        30.0,
+        -22.5
+      ],
+      "group": "tail_5",
+      "pivot": [
+        0,
+        0.36,
+        -0.25
+      ]
+    },
+    {
+      "material": "ORANGE_WOOL",
+      "position": [
+        -0.28,
+        0.24,
+        -0.51
+      ],
+      "scale": [
+        0.56,
+        0.22,
+        0.31
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "group": "body",
+      "pivot": [
+        0,
+        0.5,
+        0
+      ]
+    }
+  ]
+}
